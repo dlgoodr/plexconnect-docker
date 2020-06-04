@@ -1,4 +1,4 @@
-FROM python:2.7-slim
+FROM python:2-slim
 
 RUN mkdir -p /opt/plexconnect
 RUN pip install wget
