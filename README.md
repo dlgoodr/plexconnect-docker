@@ -1,7 +1,6 @@
 # dockerized plexconnect
 
-![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/dlgoodr/plexconnect)
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/dlgoodr/plexconnect)
+[![CI to Docker Hub](https://github.com/dlgoodr/plexconnect-docker/actions/workflows/main.yml/badge.svg)](https://github.com/dlgoodr/plexconnect-docker/actions/workflows/main.yml)
 
 [PlexConnect, from iBaa](https://github.com/iBaa/PlexConnect).
 
