@@ -7,6 +7,6 @@ RUN tar -C /opt/plexconnect -xvf plexconnect.tar.gz --strip-components 1
 RUN pip install -r /opt/plexconnect/requirements.txt
 RUN mkdir -p /opt/plexconnect/assets/certificates
 
-EXPOSE 80 443
+EXPOSE 80 443 53 53/udp
 
 CMD ["python", "/opt/plexconnect/PlexConnect.py", "--config_path=./config"]
